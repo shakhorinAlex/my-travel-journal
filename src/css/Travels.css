@@ -1,0 +1,49 @@
+.card {
+    display: flex;
+    align-items: center;
+}
+
+.card-img {
+    margin-right: 20px;
+}
+
+
+.location-wrapper {
+    display: flex;
+    margin-bottom: 4px;
+}
+.country {
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.country::before {
+    content: url('../assets/location-mark.svg');
+    position: absolute;
+    margin-left: -12px;
+    top: 1px;
+}
+
+.maps {
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 18px;
+}
+
+.card-dates {
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.card-description {
+    font-size: 10.24px;
+    line-height: 150%;
+}

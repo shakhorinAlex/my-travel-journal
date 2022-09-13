@@ -1,0 +1,29 @@
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #F55A5A;
+  
+   padding: 16px 0;
+   margin-bottom: 1px;
+   border-radius: 10px 10px 0 0;
+}
+
+.header--title {
+   color: white;
+   font-weight: 500;
+   font-size: 14.4608px;
+   line-height: 18px;
+   letter-spacing: -0.075em;
+   position: relative;
+}
+
+.header--title::before {
+   content: url('../assets/globe-logo.svg');
+   width: 24px;
+   height: 24px;
+   margin-left: -30px;
+   position: absolute;
+   top: -10%;
+   left: 0;
+}
